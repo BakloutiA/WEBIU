@@ -1,0 +1,11 @@
+<testPlan>
+    <threadGroup>
+        <numThreads>100</numThreads>
+        <rampTime>10</rampTime>
+        <sampler>
+            <httpRequest>
+                <url>https://example.com/api</url>
+            </httpRequest>
+        </sampler>
+    </threadGroup>
+</testPlan>
